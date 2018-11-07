@@ -1,5 +1,7 @@
 ﻿
 using SingleResponsibilityPrinciple.Contracts;
+using System;
+using System.IO;
 
 namespace SingleResponsibilityPrinciple
 {
@@ -42,5 +44,7 @@ namespace SingleResponsibilityPrinciple
 
             return true;
         }
+
+        
     }
 }
