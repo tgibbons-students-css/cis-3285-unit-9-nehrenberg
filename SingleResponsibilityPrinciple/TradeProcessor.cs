@@ -14,7 +14,7 @@ namespace SingleResponsibilityPrinciple
 
         public void ProcessTrades()
         {
-            var lines = tradeDataProvider.GetTradeData();
+            var lines = tradeDataProvider.GetURLTradeData();
             var trades = tradeParser.Parse(lines);
             tradeStorage.Persist(trades);
         }
